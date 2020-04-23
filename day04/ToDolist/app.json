@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/recall/recall",
+    "pages/achieve/achieve",
+    "pages/unfinished/unfinished"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#000",
+    "color": "#fff",
+    "list": [
+      {
+        "text": "所有",
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/all2.png",
+        "selectedIconPath": "/images/all1.png"
+      },
+      {
+        "text": "完成",
+        "pagePath": "pages/achieve/achieve",
+        "iconPath": "/images/achieve2.png",
+        "selectedIconPath": "/images/achieve1.png"
+      },
+      {
+        "text": "未完成",
+        "pagePath": "pages/unfinished/unfinished",
+        "iconPath": "/images/unfinished2.png",
+        "selectedIconPath": "/images/unfinished1.png"
+      },
+      {
+        "text": "撤回",
+        "pagePath": "pages/recall/recall",
+        "iconPath": "/images/recall2.png",
+        "selectedIconPath": "/images/recall.png"
+      }
+    ]
+  }
+}

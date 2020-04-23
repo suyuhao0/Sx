@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="head">
+  <input placeholder="输入任务" model:value="{{msg}}"></input>
+  <button size="mini" bindtap="add">添加</button>
+</view> 
+<view  wx:for="{{list}}" class="li" wx:key="text" >
+  <text class="num">{{index+1}}</text>
+<!-- 复选框 -->
+        <checkbox data-val="{{index}}" checked="{{item.check}}"  bindtap='updata'></checkbox>
+  <text class="p">{{item.text}}</text>
+</view>
+
+
+

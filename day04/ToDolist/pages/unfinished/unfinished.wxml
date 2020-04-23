@@ -1,0 +1,8 @@
+<!--pages/unfinished/unfinished.wxml-->
+<view  wx:for="{{list}}" class="li" wx:key="text" wx:if="{{item.check==false}}">
+  <text class="num">{{index+1}}</text>
+      <checkbox  checked="{{item.check}}" bindtap="upda" data-ind="{{index}}"></checkbox>
+  <text class="p">{{item.text}}</text>
+</view>
+
+

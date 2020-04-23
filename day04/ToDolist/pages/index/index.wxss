@@ -1,0 +1,35 @@
+/**index.wxss**/
+.head{
+  height: 100rpx;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.head input{
+  background-color: #fff;
+  border-radius: 10rpx;
+  text-indent: 15rpx;
+  width: 75%;
+  margin-left: 10rpx;
+}
+.li{
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0;
+  border-bottom: 1px dashed #ccc;
+  align-items: center;
+}
+.num{
+  color: green;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.p{
+  width: 70%;
+}
